@@ -1,2 +1,3 @@
-# makefun-guide
-How to take part in make.fun bounties using free coding agents — step by step
+# How to enter make.fun bounties with free agents
+
+Guide being written.
