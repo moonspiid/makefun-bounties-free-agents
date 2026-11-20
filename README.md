@@ -10,6 +10,8 @@ A plain-language guide to taking part in [make.fun](https://make.fun) bounties (
 
 Not affiliated with make.fun. Nothing here submits anything without your say-so.
 
+**Tags:** `#makefun` `#makefun-bounties` `#bounties` `#quests` `#guide` `#tutorial` `#free` `#ai-agents` `#coding-agent` `#copilot` `#opencode` `#antigravity` `#hackathon` `#no-code` `#beginner-friendly`
+
 ## Where to start
 
 Create your make.fun account with my invite link: **https://make.fun/r/ew2tc6sm**
@@ -67,3 +69,8 @@ The companion repository **makefun-lanceur** holds `makefun.zip`, a Windows laun
 ## Cost
 
 Everything listed as free is free at the account level. What you spend is time.
+
+## Contributors
+
+- **moonspiid** — author, tests every step on real quests.
+- **Buffy** (Freebuff) — wrote the guide, the launcher and the troubleshooting notes.
