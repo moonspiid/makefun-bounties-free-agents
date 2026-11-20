@@ -1,5 +1,11 @@
 # How to enter make.fun bounties with free coding agents
 
+![makefun](https://img.shields.io/badge/makefun-bounties-orange?style=flat-square)
+![agents](https://img.shields.io/badge/agents-free-brightgreen?style=flat-square)
+![price](https://img.shields.io/badge/price-free-brightgreen?style=flat-square)
+![license](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
+![language](https://img.shields.io/badge/guide-English-informational?style=flat-square)
+
 A plain-language guide to taking part in [make.fun](https://make.fun) bounties ("quests") using **free** coding agents. You build with an agent, and you decide when an entry is submitted.
 
 Not affiliated with make.fun. Nothing here submits anything without your say-so.
