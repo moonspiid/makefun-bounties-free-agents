@@ -73,4 +73,4 @@ Everything listed as free is free at the account level. What you spend is time.
 ## Contributors
 
 - **moonspiid** — author, tests every step on real quests.
-- **Buffy** (Freebuff) — wrote the guide, the launcher and the troubleshooting notes.
+- **Buffy** ([codebuff-team](https://github.com/codebuff-team), Codebuff) — wrote the guide, the launcher and the troubleshooting notes.
