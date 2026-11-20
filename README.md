@@ -10,6 +10,12 @@ A plain-language guide to taking part in [make.fun](https://make.fun) bounties (
 
 Not affiliated with make.fun. Nothing here submits anything without your say-so.
 
+## Where to start
+
+Create your make.fun account with my invite link: **https://make.fun/r/ew2tc6sm**
+
+Then come back here and follow the six steps below.
+
 ## Read in this order
 
 | File | What it covers |
@@ -25,7 +31,7 @@ The companion repository **makefun-lanceur** holds `makefun.zip`, a Windows laun
 
 ## What you need
 
-- A [make.fun](https://make.fun) account linked to GitHub.
+- A [make.fun](https://make.fun/r/ew2tc6sm) account linked to GitHub.
 - GitHub: a **public** repository for the entry.
 - Node.js 18+ (LTS): https://nodejs.org
 - git: https://git-scm.com
