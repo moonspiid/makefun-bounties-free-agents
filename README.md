@@ -1,46 +1,47 @@
 # How to enter make.fun bounties with free coding agents
 
-A plain-language guide to taking part in [make.fun](https://make.fun) bounties ("quests") using **free** coding agents. You build with an agent, you keep control of every submission.
+A plain-language guide to taking part in [make.fun](https://make.fun) bounties ("quests") using **free** coding agents. You build with an agent, and you decide when an entry is submitted.
 
-Not affiliated with make.fun. Nothing here submits anything without you saying yes.
+Not affiliated with make.fun. Nothing here submits anything without your say-so.
 
-## Documents
+## Read in this order
 
 | File | What it covers |
 | --- | --- |
 | [docs/AGENTS.md](docs/AGENTS.md) | The free agents: install, sign-in, links, cost |
-| [docs/WORKFLOW.md](docs/WORKFLOW.md) | Every command, in order |
-| [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Each error we hit and its fix |
+| [docs/WORKFLOW.md](docs/WORKFLOW.md) | Kit and sign-in |
+| [docs/BUILD.md](docs/BUILD.md) | Recording, building, sealing |
+| [docs/SUBMIT.md](docs/SUBMIT.md) | Bundle, check, submit, badges |
+| [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Every error we hit, and the fix |
 | [docs/SECURITY.md](docs/SECURITY.md) | Keys, secrets, what never to paste |
 
-Companion repo **makefun-lanceur** holds `makefun.zip`: a Windows launcher that automates the steps below.
+The companion repository **makefun-lanceur** holds `makefun.zip`, a Windows launcher that does the steps below for you. You only type the quest name.
 
 ## What you need
 
-- A [make.fun](https://make.fun) account, linked to a GitHub account.
+- A [make.fun](https://make.fun) account linked to GitHub.
 - GitHub: a **public** repository for the entry.
 - Node.js 18+ (LTS): https://nodejs.org
 - git: https://git-scm.com
-- One free coding agent (see docs/AGENTS.md).
+- One free coding agent.
 
 ## The six steps
 
-1. **Pick the quest.** The slug is the last part of its URL: `https://make.fun/bounty/tiny-chess-01` -> `tiny-chess-01`.
-2. **Download the official kit** for that quest: `https://make.fun/c/<slug>/kit`. Extract it. Its `RULES.txt` is the authority.
-3. **Sign in** to make.fun from the kit: `node cli/makefun.mjs login --origin https://make.fun`
-4. **Start the recording BEFORE the agent**: `node cli/makefun.mjs record --competition <slug> --source <repo-path>`
-5. **Build with the agent** in your repo folder, then push to a public GitHub repo.
-6. **Seal, check, submit**: finish the recording, run `check`, then `submit`.
+1. **Pick the quest.** The slug is the end of its address: `https://make.fun/bounty/tiny-chess-01` gives `tiny-chess-01`.
+2. **Get the kit** for that quest and read its `RULES.txt`. That file wins over everything written here.
+3. **Sign in** to make.fun from the kit.
+4. **Start the recording before the agent.** A session started earlier does not count.
+5. **Build with the agent** inside your repository folder, then push it to a public GitHub repo.
+6. **Seal the recording, run `check`, then `submit`.**
 
 ## Rules that get entries rejected
 
-- The repository must be **public**, with an **OSI license** (`LICENSE` at the root, MIT is fine).
-- `README.md` at the root with the **three make.fun badges** for that repo.
+- Repository **public**, with an **OSI license** (`LICENSE` at the root, MIT is fine).
+- `README.md` at the root carrying the **three badges** for that repo.
 - Repository **About** filled in, with the topic `makefun`.
-- Commits under **your own** git identity, not the agent's.
-- The recording must start **before** the agent's first message. A session started earlier does not count.
-- Five declarations are required, real values only: `--harness`, `--harness-version`, `--provider`, `--model`, `--effort`.
-- Some quests require `STRATEGY.md`; some require the recorded session instead of a transcript bundle. Check `RULES.txt` and the quest page.
+- Commits under **your** git identity, not the agent's.
+- **Five declarations**, real values only: `--harness`, `--harness-version`, `--provider`, `--model`, `--effort`.
+- Some quests want a `STRATEGY.md`; some accept only the recorded session instead of a transcript bundle.
 
 ## Free agents at a glance
 
@@ -51,8 +52,6 @@ Companion repo **makefun-lanceur** holds `makefun.zip`: a Windows launcher that 
 | opencode | `opencode` | Free models included |
 | Claude Code | `claude` | Paid |
 
-Install commands, sign-in and what to declare: [docs/AGENTS.md](docs/AGENTS.md).
-
 ## Cost
 
-Every tool listed as free is free at the account level. The only thing you spend is time, plus electricity.
+Everything listed as free is free at the account level. What you spend is time.
